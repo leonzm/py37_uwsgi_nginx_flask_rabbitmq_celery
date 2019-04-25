@@ -10,8 +10,8 @@ from pymongo import ReadPreference
 # from celery.schedules import crontab, timedelta
 
 flask_port = 5004
-environment = 'default'
-environment_name = '本地'
+environment = 'UAT'
+environment_name = 'UAT'
 
 # Rabbitmq 配置
 RMQ_BROKER_IP = "127.0.0.1"

@@ -11,7 +11,7 @@ from config import config
 from api.api_suppert import api_code
 from config.flask_config import flask_app
 from api.api_suppert.api_template import response_json, success, fail
-from api.api_services import api_test
+from api.api_services import api_test, api_task
 
 # 项目信息
 PROJECT_NAME = 'py37_uwsgi_nginx_flask_rabbitmq_celery'
